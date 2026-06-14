@@ -1,0 +1,46 @@
+Package: daisychain
+Type: Package
+Title: AFLW Data Analysis and Predictive Modeling
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Pete", "O'Reilly",
+      email = "pete@example.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: A comprehensive package for Australian Football League Women's (AFLW)
+    data collection, analysis, and predictive modeling. Provides functions for
+    scraping AFLW data, analyzing player contributions to game margins, building
+    player rating systems, and creating match prediction models for totals,
+    margins, and win probabilities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 3.5.0)
+Imports:
+    fitzRoy (>= 1.6.0),
+    dplyr (>= 1.0.0),
+    lubridate (>= 1.7.0),
+    tidyr (>= 1.1.0),
+    purrr (>= 0.3.0),
+    magrittr (>= 2.0.0),
+    broom (>= 0.7.0),
+    rlang (>= 0.4.0),
+    scales,
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    glmnet,
+    randomForest,
+    caret,
+    ggplot2,
+    modelr,
+    slider
+VignetteBuilder: knitr

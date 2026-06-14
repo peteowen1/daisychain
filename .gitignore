@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Analysis cache files
+analysis/decay_params.rds
+analysis/cache/
+
+# Claude Code machine-specific permissions
+.claude/settings.local.json

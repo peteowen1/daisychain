@@ -1,0 +1,17 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^README-.*\.png$
+^\.github$
+^analysis$
+^data-raw$
+^docs$
+^pkgdown$
+^_pkgdown\.yml$
+^\.travis\.yml$
+^appveyor\.yml$
+^cran-comments\.md$
+^\.httr-oauth$
+^CRAN-RELEASE$
+^\.claude$
+^LICENSE\.md$
